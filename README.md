@@ -9,3 +9,5 @@ An example app to teach about background workers.
 * Create and migrate the database
 * Launch the server
 * Profit
+
+see [Notes](https://github.com/adamcaron/background_workers/blob/master/notes.markdown)

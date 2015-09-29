@@ -4,7 +4,7 @@ class BooksController < ApplicationController
   end
 
   def create
-    Book.generate
+    GenerateBooksJob.perform_later
 
     redirect_to :back, success: 'The books were generated successfully.'
   end
